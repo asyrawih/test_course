@@ -3,7 +3,7 @@ package model
 // Definite The User
 type User struct {
 	Name         string `json:"name"`
-	Password     string `json:"password"`
+	Password     string `json:"-"`
 	Address      string `json:"address"`
 	PhoneAddress string `json:"phone_address"`
 	Age          int    `json:"age"`
